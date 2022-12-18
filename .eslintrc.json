@@ -1,0 +1,51 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "next/core-web-vitals",
+    "plugin:prettier/recommended",
+    "plugin:tailwind/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "prettier",
+    "@typescript-eslint",
+    "tailwind"
+  ],
+  "rules": {
+    "no-shadow": "off",
+    "no-unused-vars": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".tsx"] }],
+    "react/jsx-props-no-spreading": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 90
+      }
+    ]
+  }
+}
