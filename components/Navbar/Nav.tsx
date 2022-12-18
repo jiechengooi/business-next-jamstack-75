@@ -1,5 +1,5 @@
 import React from "react";
-import { ILayout } from "../../types/generated/contentful.d.ts";
+import { ILayout } from "../../types/generated/contentful";
 import NavLink from "./NavLink";
 
 type NavProps = {

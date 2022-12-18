@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
-import { ISectionNotFound, ISectionThankYou } from "../../types/generated/contentful.d.ts";
+import { ISectionNotFound, ISectionThankYou } from "../../types/generated/contentful";
 
 type RedirectSectionProps = {
   content: ISectionNotFound | ISectionThankYou;

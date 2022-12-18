@@ -1,5 +1,5 @@
 import React from "react";
-import { ISectionOurLocation } from "../../types/generated/contentful.d.ts";
+import { ISectionOurLocation } from "../../types/generated/contentful";
 
 type AddressFooterProps = {
   content: ISectionOurLocation;

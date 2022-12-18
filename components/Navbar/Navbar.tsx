@@ -4,7 +4,7 @@ import Nav from "./Nav";
 import ThemeSwitcher from "../ThemeSwitcher";
 import LocaleSwitcher from "../LocaleSwitcher";
 import HamburgerButton from "./HamburgerButton";
-import { ILayout } from "../../types/generated/contentful.d.tsxxxxx";
+import { ILayout } from "../../types/generated/contentful";
 
 type NavbarProps = {
   content: ILayout;

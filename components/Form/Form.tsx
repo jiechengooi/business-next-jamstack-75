@@ -6,7 +6,7 @@ import Input from "./Input";
 import ErrorLabel from "./ErrorLabel";
 import TextArea from "./TextArea";
 import Submit from "./Submit";
-import { ISectionContact } from "../../types/generated/contentful.d.ts";
+import { ISectionContact } from "../../types/generated/contentful";
 
 enum ValidationErrors {
   REQUIRED = "REQUIRED",

@@ -1,5 +1,5 @@
 import React from "react";
-import { ISectionContact } from "../../types/generated/contentful.d.ts";
+import { ISectionContact } from "../../types/generated/contentful";
 import Form from "../Form";
 
 type ContactProps = {

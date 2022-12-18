@@ -5,7 +5,7 @@ import {
   ILayout,
   ISectionOurValues,
   ISectionAbout,
-} from "../types/generated/contentful.d.ts";
+} from "../types/generated/contentful";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import OurValues from "../components/OurValues";

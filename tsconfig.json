@@ -1,3 +1,4 @@
+
 {
   "compilerOptions": {
     "target": "es5",
@@ -16,6 +17,6 @@
     "incremental": true,
     "types": ["@types/gtag.js"]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types/generated/contentful.d.tsxxxxx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { ISectionAbout } from "../../types/generated/contentful.d.ts";
+import { ISectionAbout } from "../../types/generated/contentful.js";
 import ImageCtaSection from "../ImageCtaSection";
 
 import imageAbout from "../../public/images/about.png";

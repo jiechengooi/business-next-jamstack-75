@@ -6,7 +6,7 @@ import Navbar from "../Navbar";
 import ThemeSwitcher from "../ThemeSwitcher";
 import LocaleSwitcher from "../LocaleSwitcher";
 import Footer from "../Footer";
-import { ILayout } from "../../types/generated/contentful.d.ts";
+import { ILayout } from "../../types/generated/contentful.js";
 import Contact from "../Contact";
 import AddressFooter from "../AddressFooter";
 

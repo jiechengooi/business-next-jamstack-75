@@ -5,7 +5,7 @@ import Cta from "../Cta";
 import { fadeInFromLeft, wrapperAnimationProps } from "../../utils/animations";
 
 import imageHero from "../../public/images/education.jpeg";
-import { ISectionHero } from "../../types/generated/contentful.d.tsxxxxx";
+import { ISectionHero } from "../../types/generated/contentful";
 
 type HeroProps = {
   content: ISectionHero;

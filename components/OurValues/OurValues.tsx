@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import OurValuesCard from "./OurValuesCard";
-import { ISectionOurValues } from "../../types/generated/contentful.d.ts";
+import { ISectionOurValues } from "../../types/generated/contentful";
 import { fadeInFromTop, wrapperAnimationProps } from "../../utils/animations";
 
 import imagePeople from "../../public/images/training.jpg";
